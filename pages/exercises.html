@@ -1,0 +1,237 @@
+<html>
+    <head>
+        <title>Exercises</title>
+		<link rel="icon" href="../img/favicon.png">
+        <link rel="stylesheet" href="../css/style-v1.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+      <!-----Navigation bar----->
+        <section id="nav-bar">
+            <nav class="navbar navbar-expand-lg navbar-light">
+				<a class="navbar-brand" href="../index.html"><img src="../img/favicon.png"></a>
+				<a class="navbar-brand" href="../index.html">Sample Space and Probability</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="../index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#about">DEFINITIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#services">EXAMPLES</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/exercises.html">EXERCISES</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </section>
+        <!----------Jumbohakdog-------->
+  <div class="node-content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p style="text-align:center"><img alt="suits" src="../img/suits_0.gif" style="width: 73px; height: 64px;" title="suits"></p>
+<p><img alt="Dime" src="../img/dime.gif" style="width:150px; height:90px; float:right" title="Dime">Experiment 1:&nbsp;What is the probability of each outcome when a dime is tossed?</p>
+<p>Outcomes:&nbsp;The outcomes of this experiment are head and tail.</p>
+<p>Probabilities:&nbsp;</p>
+<table border="0" cellpadding="0" cellspacing="0" class="low-padding" style="width: 90px;"><tbody><tr><td nowrap="nowrap" rowspan="2" valign="middle">P(head)</td>
+<td nowrap="nowrap" rowspan="2" valign="middle">&nbsp;=&nbsp;</td>
+<td align="center" nowrap="nowrap"><u>1</u></td>
+</tr><tr><td align="center" nowrap="nowrap">2</td>
+</tr><tr><td colspan="3">&nbsp;</td>
+</tr><tr><td nowrap="nowrap" rowspan="2" valign="middle">P(tail)</td>
+<td nowrap="nowrap" rowspan="2" valign="middle">&nbsp;=&nbsp;</td>
+<td align="center" nowrap="nowrap"><u>1</u></td>
+</tr><tr><td align="center" nowrap="nowrap">2</td>
+</tr></tbody></table>
+<p>The sample space of Experiment 1 is: &nbsp;&nbsp;{head, tail}</p>
+<hr><p>Experiment 2:&nbsp;A spinner has 4 equal sectors colored yellow, blue, green and red. What is the probability of landing on each color after spinning this spinner?</p>
+<p><img alt="spinner" height="80" id="spinner" name="spinner" src="../img/spinner-0.gif" title="spinner" width="80"></p>
+<form id="spinit" name="spinit"><input name="spin" onclick="spinStart()" type="button" value="SPIN">&nbsp;<input name="stop" onclick="spinStop()" type="button" value="STOP">&nbsp;</form>
+<p>Sample Space:&nbsp;{yellow, blue, green, red}</p>
+<p>Probabilities:</p>
+<table border="0" cellpadding="0" cellspacing="0" class="low-padding" style="width: 90px;"><tbody><tr><td nowrap="nowrap" rowspan="2" valign="middle">P(yellow)</td>
+<td nowrap="nowrap" rowspan="2" valign="middle">&nbsp;=&nbsp;</td>
+<td align="center" nowrap="nowrap"><u>1</u></td>
+</tr><tr><td align="center" nowrap="nowrap">4</td>
+</tr><tr><td colspan="3">&nbsp;</td>
+</tr><tr><td nowrap="nowrap" rowspan="2" valign="middle">P(blue)</td>
+<td nowrap="nowrap" rowspan="2" valign="middle">&nbsp;=&nbsp;</td>
+<td align="center" nowrap="nowrap"><u>1</u></td>
+</tr><tr><td align="center" nowrap="nowrap">4</td>
+</tr><tr><td colspan="3">&nbsp;</td>
+</tr><tr><td nowrap="nowrap" rowspan="2" valign="middle">P(green)</td>
+<td nowrap="nowrap" rowspan="2" valign="middle">&nbsp;=&nbsp;</td>
+<td align="center" nowrap="nowrap"><u>1</u></td>
+</tr><tr><td align="center" nowrap="nowrap">4</td>
+</tr><tr><td colspan="3">&nbsp;</td>
+</tr><tr><td nowrap="nowrap" rowspan="2" valign="middle">P(red)</td>
+<td nowrap="nowrap" rowspan="2" valign="middle">&nbsp;=&nbsp;</td>
+<td align="center" nowrap="nowrap"><u>1</u></td>
+</tr><tr><td align="center" nowrap="nowrap">4</td>
+</tr></tbody></table><hr><p>Experiment 3:&nbsp;What is the probability of each outcome when a single 6-sided die is rolled?</p>
+<p><img alt="dice" height="64" id="dice" name="dice" src="../img/dice.gif" title="dice" width="220"></p>
+<form id="roller" name="roller"><input name="roll" onclick="diceRoll()" type="button" value="ROLL">&nbsp;<input name="reset" onclick="dicereset()" type="button" value="CLEAR">&nbsp;</form>
+<p>Sample Space:&nbsp;{1, 2, 3, 4, 5, 6}</p>
+<p>Probabilities:&nbsp;</p>
+<table border="0" cellpadding="0" cellspacing="0" class="low-padding" style="width: 80px;"><tbody><tr><td nowrap="nowrap" rowspan="2" valign="middle">P(1)</td>
+<td nowrap="nowrap" rowspan="2" valign="middle">&nbsp;=&nbsp;</td>
+<td align="center" nowrap="nowrap"><u>1</u></td>
+</tr><tr><td align="center" nowrap="nowrap">6</td>
+</tr><tr><td colspan="3">&nbsp;</td>
+</tr><tr><td nowrap="nowrap" rowspan="2" valign="middle">P(2)</td>
+<td nowrap="nowrap" rowspan="2" valign="middle">&nbsp;=&nbsp;</td>
+<td align="center" nowrap="nowrap"><u>1</u></td>
+</tr><tr><td align="center" nowrap="nowrap">6</td>
+</tr><tr><td colspan="3">&nbsp;</td>
+</tr><tr><td nowrap="nowrap" rowspan="2" valign="middle">P(3)</td>
+<td nowrap="nowrap" rowspan="2" valign="middle">&nbsp;=&nbsp;</td>
+<td align="center" nowrap="nowrap"><u>1</u></td>
+</tr><tr><td align="center" nowrap="nowrap">6</td>
+</tr><tr><td colspan="3">&nbsp;</td>
+</tr><tr><td nowrap="nowrap" rowspan="2" valign="middle">P(4)</td>
+<td nowrap="nowrap" rowspan="2" valign="middle">&nbsp;=&nbsp;</td>
+<td align="center" nowrap="nowrap"><u>1</u></td>
+</tr><tr><td align="center" nowrap="nowrap">6</td>
+</tr><tr><td colspan="3">&nbsp;</td>
+</tr><tr><td nowrap="nowrap" rowspan="2" valign="middle">P(5)</td>
+<td nowrap="nowrap" rowspan="2" valign="middle">&nbsp;=&nbsp;</td>
+<td align="center" nowrap="nowrap"><u>1</u></td>
+</tr><tr><td align="center" nowrap="nowrap">6</td>
+</tr><tr><td colspan="3">&nbsp;</td>
+</tr><tr><td nowrap="nowrap" rowspan="2" valign="middle">P(6)</td>
+<td nowrap="nowrap" rowspan="2" valign="middle">&nbsp;=&nbsp;</td>
+<td align="center" nowrap="nowrap"><u>1</u></td>
+</tr><tr><td align="center" nowrap="nowrap">6</td>
+</tr></tbody></table><hr><p><img alt="Marbles" src="../img/marbles_jar_1_1.gif" style="width:100px; height:100px; float:right" title="Marbles">Experiment 4:&nbsp;A glass jar contains 1 red, 3 green, 2 blue and 4 yellow marbles. If a single marble is chosen at random from the jar, what is the probability of each outcome?</p>
+<p>Sample Space:&nbsp;{red, green, blue, yellow}</p>
+<p>Probabilities:&nbsp;</p>
+<table border="0" cellpadding="0" cellspacing="0" class="low-padding" style="width: 120px;"><tbody><tr><td nowrap="nowrap" rowspan="2" valign="middle">P(red)</td>
+<td nowrap="nowrap" rowspan="2" valign="middle">&nbsp;=&nbsp;</td>
+<td align="center" nowrap="nowrap"><u>&nbsp;1&nbsp;</u></td>
+</tr><tr><td align="center" nowrap="nowrap">10</td>
+</tr><tr><td colspan="3">&nbsp;</td>
+</tr><tr><td nowrap="nowrap" rowspan="2" valign="middle">P(green)</td>
+<td nowrap="nowrap" rowspan="2" valign="middle">&nbsp;=&nbsp;</td>
+<td align="center" nowrap="nowrap"><u>&nbsp;3&nbsp;</u></td>
+</tr><tr><td align="center" nowrap="nowrap">10</td>
+</tr><tr><td colspan="3">&nbsp;</td>
+</tr><tr><td nowrap="nowrap" rowspan="2" valign="middle">P(blue)</td>
+<td nowrap="nowrap" rowspan="2" valign="middle">&nbsp;=&nbsp;</td>
+<td align="center" nowrap="nowrap"><u>&nbsp;2&nbsp;</u></td>
+<td nowrap="nowrap" rowspan="2" valign="middle">&nbsp;=&nbsp;</td>
+<td align="center" nowrap="nowrap"><u>1</u></td>
+</tr><tr><td align="center" nowrap="nowrap">10</td>
+<td align="center" nowrap="nowrap">5</td>
+</tr><tr><td colspan="3">&nbsp;</td>
+</tr><tr><td nowrap="nowrap" rowspan="2" valign="middle">P(yellow)</td>
+<td nowrap="nowrap" rowspan="2" valign="middle">&nbsp;=&nbsp;</td>
+<td align="center" nowrap="nowrap"><u>&nbsp;4&nbsp;</u></td>
+<td nowrap="nowrap" rowspan="2" valign="middle">&nbsp;=&nbsp;</td>
+<td align="center" nowrap="nowrap"><u>2</u></td>
+</tr><tr><td align="center" nowrap="nowrap">10</td>
+<td align="center" nowrap="nowrap">5</td>
+</tr></tbody></table><hr><p>Summary:&nbsp;The sample space of an experiment is the set of all possible outcomes for that experiment. You may have noticed that for each of the experiments above, the sum of the probabilities of each outcome is 1. This is no coincidence.&nbsp;<strong>The sum of the probabilities of the distinct outcomes within a sample space is 1.</strong></p>
+<p>The sample space for choosing a single card at random from a deck of 52 playing cards is shown below. There are 52 possible outcomes in this sample space.</p>
+<p><img alt="Cards" height="230" src="../img/cards_ss.gif" title="Cards" width="505"></p>
+<p>The probability of each outcome of this experiment is:</p>
+<table border="0" cellpadding="0" cellspacing="0" class="low-padding" style="width: 85px;"><tbody><tr><td nowrap="nowrap" rowspan="2" valign="middle">P(card)</td>
+<td nowrap="nowrap" rowspan="2" valign="middle">&nbsp;=&nbsp;</td>
+<td align="center" nowrap="nowrap"><u>&nbsp;1&nbsp;</u></td>
+</tr><tr><td align="center" nowrap="nowrap">52</td>
+</tr></tbody></table><p>The sum of the probabilities of the distinct outcomes within this sample space is:</p>
+<table border="0" cellpadding="0" cellspacing="0" class="low-padding" style="width: 50px;"><tbody><tr><td align="center" nowrap="nowrap"><u>52</u></td>
+<td nowrap="nowrap" rowspan="2" valign="middle">&nbsp;=&nbsp;</td>
+<td nowrap="nowrap" rowspan="2" valign="middle">1</td>
+</tr><tr><td align="center" nowrap="nowrap">52</td>
+</tr></tbody></table><hr>
+<p>Directions: Read each question below. Select your answer by clicking on its button. Feedback to your answer is provided in the RESULTS BOX. If you make a mistake, choose a different button.</p>
+<table class="p-exercises" bgcolor="#d3d3d3" border="0" cellpadding="0" cellspacing="0" width="60%"><tbody><tr><td valign="top" width="20"><strong>1.&nbsp;</strong></td>
+<td><strong>What is the sample space for choosing an odd number from 1 to 11 at random?</strong></td>
+</tr><tr><td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr><tr><td>&nbsp;</td>
+<td>
+<form name="question1" id="question1"><input name="entry" onclick="checkAnswer(this.form, &#39;1&#39;)" type="radio" value="choice1">1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11<br><input name="entry" onclick="checkAnswer(this.form, &#39;1&#39;)" type="radio" value="choice2">{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}<br><input name="entry" onclick="checkAnswer(this.form, &#39;1&#39;)" type="radio" value="choice3">{1, 3, 5, 7, 9 11}<br><input name="entry" onclick="checkAnswer(this.form, &#39;1&#39;)" type="radio" value="choice4">None of the above.
+<p>			RESULTS BOX:<br><input name="result" size="50" type="text">&nbsp;</p></form>
+</td>
+</tr></tbody></table><table class="p-exercises" bgcolor="#d3d3d3" border="0" cellpadding="0" cellspacing="0" width="60%"><tbody><tr><td valign="top" width="20"><strong>2.&nbsp;</strong></td>
+<td><strong>What is the sample space for choosing a prime number less than 15 at random?</strong></td>
+</tr><tr><td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr><tr><td>&nbsp;</td>
+<td>
+<form name="question2" id="question2"><input name="entry" onclick="checkAnswer(this.form, &#39;2&#39;)" type="radio" value="choice1">{2, 3, 5, 7, 11, 13, 15}<br><input name="entry" onclick="checkAnswer(this.form, &#39;2&#39;)" type="radio" value="choice2">{2, 3, 5, 7, 11, 13}<br><input name="entry" onclick="checkAnswer(this.form, &#39;2&#39;)" type="radio" value="choice3">{2, 3, 5, 7, 9, 11, 13}<br><input name="entry" onclick="checkAnswer(this.form, &#39;2&#39;)" type="radio" value="choice4">All of the above.
+<p>			RESULTS BOX:<br><input name="result" size="50" type="text">&nbsp;</p></form>
+</td>
+</tr></tbody></table><table class="p-exercises" bgcolor="#d3d3d3" border="0" cellpadding="0" cellspacing="0" width="60%"><tbody><tr><td valign="top" width="20"><strong>3.&nbsp;</strong></td>
+<td><strong>What is the sample space for choosing 1 jelly bean at random from a jar containing 5 red, 7 blue and 2 green jelly beans?</strong></td>
+</tr><tr><td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr><tr><td>&nbsp;</td>
+<td>
+<form name="question3" id="question3"><input name="entry" onclick="checkAnswer(this.form, &#39;3&#39;)" type="radio" value="choice1">{5, 7, 2}<br><input name="entry" onclick="checkAnswer(this.form, &#39;3&#39;)" type="radio" value="choice2">{5 red, 7 blue, 2 green}<br><input name="entry" onclick="checkAnswer(this.form, &#39;3&#39;)" type="radio" value="choice3">{red, blue, green}<br><input name="entry" onclick="checkAnswer(this.form, &#39;3&#39;)" type="radio" value="choice4">None of the above.
+<p>			RESULTS BOX:<br><input name="result" size="50" type="text">&nbsp;</p></form>
+</td>
+</tr></tbody></table><table class="p-exercises" bgcolor="#d3d3d3" border="0" cellpadding="0" cellspacing="0" width="60%"><tbody><tr><td valign="top" width="20"><strong>4.&nbsp;</strong></td>
+<td><strong>What is the sample space for choosing 1 letter at random from 5 vowels?</strong></td>
+</tr><tr><td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr><tr><td>&nbsp;</td>
+<td>
+<form name="question4" id="question4"><input name="entry" onclick="checkAnswer(this.form, &#39;4&#39;)" type="radio" value="choice1">{a, e, i, o, u}<br><input name="entry" onclick="checkAnswer(this.form, &#39;4&#39;)" type="radio" value="choice2">{v, o, w, e, l}<br><input name="entry" onclick="checkAnswer(this.form, &#39;4&#39;)" type="radio" value="choice3">{1, 2, 3, 4, 5}<br><input name="entry" onclick="checkAnswer(this.form, &#39;4&#39;)" type="radio" value="choice4">None of the above.
+<p>			RESULTS BOX:<br><input name="result" size="50" type="text">&nbsp;</p></form>
+</td>
+</tr></tbody></table><table class="p-exercises" bgcolor="#d3d3d3" border="0" cellpadding="0" cellspacing="0" width="60%"><tbody><tr><td valign="top" width="20"><strong>5.&nbsp;</strong></td>
+<td><strong>What is the sample space for choosing 1 letter at random from the word DIVIDE?</strong></td>
+</tr><tr><td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr><tr><td>&nbsp;</td>
+<td>
+<form name="question5" id="question5"><input name="entry" onclick="checkAnswer(this.form, &#39;5&#39;)" type="radio" value="choice1">{d, i, v, i, d, e}<br><input name="entry" onclick="checkAnswer(this.form, &#39;5&#39;)" type="radio" value="choice2">{1, 2, 3, 4, 5, 6}<br><input name="entry" onclick="checkAnswer(this.form, &#39;5&#39;)" type="radio" value="choice3">{d, i, v, e}<br><input name="entry" onclick="checkAnswer(this.form, &#39;5&#39;)" type="radio" value="choice4">None of the above.
+<p>			RESULTS BOX:<br><input name="result" size="50" type="text">&nbsp;</p></form>
+</td>
+</tr></tbody></table><p>&nbsp;</p>
+</div></div></div>  </div>
+       <!-----------Footer------>
+       <footer>
+       <div class="container-fluid padding">
+       <div class="row text-center">
+         <div class="col-md-4">
+           <img height="33" width="33"src="../img/favicon.png"><h5>Sample Space and Probability</h5>
+		   <hr class="light">
+           <p>kyan.dahab@gmail.com</p>
+           <p>seankevin03@gmail.com</p>
+           <p>Muralla Street</p>
+           <p>Intramuros, Manila</p>
+         </div>
+         <div class="col-md-4">
+           <hr class="light">
+           <h5>Our Hours</h5>
+           <hr class="light">
+           <p>Monday 9:00am - 5:00pm</p>
+           <p>Tuesday 9:00am - 5:00pm</p>
+           <p>Wednesday 9:00am - 5:00pm</p>
+           <p>Thursday 9:00am - 5:00pm</p>
+         </div>
+         <div class="col-md-4">
+            <a href="https://www.plm.edu.ph/"><img height="33" width="33"src="../img/logo.png"><h5>Pamantasan ng Lungsod ng Maynila</h5></a>
+            <hr class="light">
+            <p>College of Engineering and Technology</p>
+			<p>Computer Science Department</p>
+			<p>Muralla Street</p>
+            <p>Intramuros, Manila</p>
+          </div>
+       </div>  
+       </div>  
+       </footer>
+    </body>
+</html>
